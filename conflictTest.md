@@ -1,5 +1,6 @@
-This is my conflict test
-this is how we do it
+This is how we do it 
+this is howie dewitt
 
-I like to hike
-you like ot hikk
+I like to hike.
+You like to hike. 
+We all like to hike!
