@@ -1,5 +1,5 @@
-This is how we do it 
-this is howie dewitt
-i like to hike 
-you like ot hik 
-asdf
+This is my conflict test
+this is how we do it
+
+I like to hike
+you like ot hikk
