@@ -1,3 +1,5 @@
-This is my test mark down thing
-
-how do markdown files work?
+This is how we do it 
+this is howie dewitt
+i like to hike 
+you like ot hik 
+asdf
