@@ -1,5 +1,6 @@
 This is how we do it 
 this is howie dewitt
-i like to hike 
-you like ot hik 
-asdf
+
+I like to hike.
+You like to hike. 
+We all like to hike!
