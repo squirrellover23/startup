@@ -1,4 +1,3 @@
-# startup
-This is my web startup
+# Startup
+My plan for my startup:
 
-It is a website
