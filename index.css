@@ -1,24 +1,22 @@
 body {
-    margin: 0px;
+  margin: 0px;
 }
 header {
-    width: 100vw;
-    height: 15vh;
-    background-color: rgb(30, 30, 54);
-    display: flex;
-    justify-content: center;
-    color: white;
-
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(30, 30, 54);
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 header nav {
-    display: flex;
-    text-align: center;
-    justify-content: center;   
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
-
 header a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }

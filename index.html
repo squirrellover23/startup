@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- <link rel="stylesheet" href="index.css"> -->
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Event Tracker</h1>
-        <nav>
+      <h1>Event Tracker</h1>
+      <nav>
         <ul>
-            <li><a href="/">Upcoming</a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Home</a></li>
+          <li><a href="/">Upcoming</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Home</a></li>
         </ul>
-        </nav>
+      </nav>
     </header>
     <main>
-        <h2>Upcoming Events</h2>
-        <div class="event-bar">
-            <span>Event Name</span>
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>
+          <div class="event-bar">
+            <a href="/event.html">Welcome Event</a>
             <label for="meter">Progress: </label>
-            <meter id="meter" min="0" max="100" value="10" low="50" high="100" optimum="100"></meter>
-            <span>Event Date</span>
-        </div>
+            <meter
+              id="meter"
+              min="0"
+              max="100"
+              value="70"
+              low="50"
+              high="100"
+              optimum="100"
+            ></meter>
+            <p>2/19/2024</p>
+          </div>
+        </li>
+        <li>
+          <div class="event-bar">
+            <a href="/event.html">March Event</a>
+            <label for="meter">Progress: </label>
+            <meter
+              id="meter"
+              min="0"
+              max="100"
+              value="50"
+              low="50"
+              high="100"
+              optimum="100"
+            ></meter>
+            <p>3/15/2024</p>
+          </div>
+        </li>
+        <li>
+          <div class="event-bar">
+            <a href="/event.html">Food Event</a>
+            <label for="meter">Progress: </label>
+            <meter
+              id="meter"
+              min="0"
+              max="100"
+              value="10"
+              low="50"
+              high="100"
+              optimum="100"
+            ></meter>
+            <p>4/12/2024</p>
+          </div>
+        </li>
+      </ul>
     </main>
-
-</body>
+  </body>
 </html>
-
-
-
-
-
