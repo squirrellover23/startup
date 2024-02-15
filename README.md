@@ -21,3 +21,4 @@ DB - I will use a data base to store user data but also data on all the events a
 WebSocket - Use to get live updates as other people complete tasks.
 authentication - users won't be able to access anything unless they login and are authorized.
 
+## HTML 

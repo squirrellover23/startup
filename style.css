@@ -1,0 +1,42 @@
+body {
+  /* display: flex; */
+  margin: 0;
+  height: 98vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  /* overflow: hidden; */
+}
+
+header,
+main,
+footer {
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  /* display: flex; */
+}
+
+header {
+  box-sizing: border-box;
+
+  padding: 5px;
+  /* justify-content: center; */
+  align-items: center;
+  display: flex;
+  height: 10%;
+  background-color: #F97E7E;
+  color: white;
+
+}
+
+main {
+  box-sizing: border-box;
+  padding: 15px;
+  justify-content: center;
+  height: 80%;
+}
+footer {
+  display: inline;
+  height: 10%;
+}

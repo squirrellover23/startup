@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Tracker</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Event Tracker</h1>
+    <header id="header-container"></header>
+    <script>
+      // Fetch and insert the header using JavaScript
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header-container").innerHTML = html;
+        });
+    </script>
+
+    <main>
       <h3>Grace Wingate</h3>
       <button onclick="window.location.href='/'">Log Out</button>
-      <nav>
-        <ul>
-          <li><a href="/upcomingevents.html">Upcoming</a></li>
-          <li><a href="/mytasks.html">My Tasks</a></li>
-          <li><a href="/alltasks.html">All Tasks</a></li>
-        </ul>
-        <hr />
-      </nav>
-    </header>
-    <main>
       <h2>All Tasks</h2>
       <span>View by: </span><button>Date</button> <button>Event</button>
       <br />
@@ -47,21 +47,19 @@
             <td>1/16/24</td>
             <td>Opening social</td>
             <td>Grace</td>
-
           </tr>
           <tr>
             <td>Call People</td>
             <td>3/1/24</td>
             <td>March Event</td>
             <td>Angela</td>
-
           </tr>
         </tbody>
       </table>
     </main>
     <footer>
       <hr />
-      <p>Author(s) Name: Peterson Wingate</p>
+      <span>Author(s) Name: Peterson Wingate</span>
       <a href="https://github.com/squirrellover23/startup">Github</a>
     </footer>
   </body>

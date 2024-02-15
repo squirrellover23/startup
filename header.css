@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+nav  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav li {
+  padding: 7px;
+  margin: 5px;
+  background-color: #DA5159;
+  border-radius: 5px;
+}
+#main-text {
+  margin: 0;
+}
