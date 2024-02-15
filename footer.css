@@ -1,0 +1,8 @@
+footer {
+    background-color: gray;
+    justify-content: center;
+}
+
+footer span {
+    padding-right: 20px;
+}
