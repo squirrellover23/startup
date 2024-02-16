@@ -14,12 +14,10 @@ footer {
   margin: 0;
   box-sizing: border-box;
   width: 100%;
-  /* display: flex; */
 }
 
 header {
   padding: 5px;
-  /* justify-content: center; */
   align-items: center;
   display: flex;
   height: 10%;
@@ -38,4 +36,11 @@ footer {
   align-items: center;
   display: flex;
   height: 6%;
+}
+
+#user-info{
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  margin-right: 10px;
 }

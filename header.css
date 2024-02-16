@@ -3,15 +3,18 @@ nav a {
   color: white;
 }
 
+header {
+  justify-content: space-between;
+}
+nav {
+  align-items: center;
+  justify-content: right;
+}
 #menu {
+  padding: 0;
   margin: 0;
   display: flex;
   list-style: none;
-}
-nav  {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 nav li {
   padding: 7px;
@@ -21,4 +24,17 @@ nav li {
 }
 #main-text {
   margin: 0;
+  margin-left: 10px;
 }
+
+
+@media only screen and (max-width: 530px) {
+  nav {
+    display: none;
+  }
+}
+
+
+
+
+
