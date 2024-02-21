@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Tracker</title>
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <h1>Login To your account</h1>
+    <div id="box">
+    <h1>Login</h1>
     <form action="/upcomingevents.html" method="GET">
-      <label for="username">Username</label>
-      <input id="username" type="text" required />
+      <!-- <label for="username">Username</label> -->
+      <input id="username" type="text" placeholder="Username" required />
       <br />
-      <label for="password">Password</label>
-      <input id="password" type="password" required />
+      <!-- <label for="password">Password</label> -->
+      <input id="password" type="password" placeholder="Password" required />
       <br />
-      <input type="submit" value="Login" />
+      <input id="login-button" type="submit" value="Login" />
     </form>
-    
+  </div>
   </body>
 </html>

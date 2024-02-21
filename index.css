@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#box {
+  height: 15em;
+  text-align: center;
+  padding: 15px;
+  background-color: #f97e7e;
+  color: white;
+  border-radius: 5px;
+}
+input {
+  font-size: larger;
+  padding: 5px;
+  margin: 5px;
+}
+
+#login-button {
+    margin-top: 15px;
+}
