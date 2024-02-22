@@ -1,0 +1,45 @@
+#events {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px;
+}
+
+.event-bar {
+  border-radius: 10px;
+  background-color: lightgray;
+  min-width: 50vw;
+  max-width: 600px;
+  padding: 15px;
+  margin-top: 3%;
+  font-size: larger;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.event-bar a {
+  
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  min-width: 6em;
+  align-self: center;
+}
+
+meter {
+  height: 30px;
+  width: 6em;
+  margin-left: 10px;
+}
+
+.event-bar span {
+  margin-left: 25px;
+  align-self: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .event-bar span {
+    display: none;
+  }
+}

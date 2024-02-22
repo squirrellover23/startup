@@ -31,6 +31,7 @@ main {
   padding: 15px;
   justify-content: center;
   height: 84%;
+  overflow: scroll;
 }
 footer {
   align-items: center;
