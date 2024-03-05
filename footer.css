@@ -12,3 +12,9 @@ footer span {
     display: none;
   }
 }
+
+@media only screen and (max-height: 400px) {
+  footer {
+    display: none;
+  }
+}
