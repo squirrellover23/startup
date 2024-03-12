@@ -21,12 +21,12 @@ header {
   align-items: center;
   display: flex;
   height: 10%;
-  background-color: #F97E7E;
+  background-color: #f97e7e;
   color: white;
-
 }
 
 main {
+  position: relative;
   box-sizing: border-box;
   padding: 15px;
   justify-content: center;
@@ -39,7 +39,7 @@ footer {
   height: 6%;
 }
 
-#user-info{
+#user-info {
   display: flex;
   justify-content: right;
   margin: 0;
@@ -54,13 +54,14 @@ footer {
 .button {
   padding: 7px;
   margin: 5px;
-  background-color: #DA5159;
+  background-color: #da5159;
   border-radius: 5px;
   color: white;
   border: none;
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 30px;
 }
-

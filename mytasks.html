@@ -6,7 +6,6 @@
     <title>Event Tracker</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
     <link rel="stylesheet" href="stylesheets/event-table.css" />
-
   </head>
   <body>
     <header id="header-container"></header>
@@ -21,32 +20,37 @@
     <main>
       <!-- <h3 id="user-info">Grace Wingate</h3> -->
       <h2>My tasks</h2>
-      <span>View by: </span><button class="button">Date</button> <button class="button">Event</button>
-      <br />
-      <br />
+      <div class="view-menu">
+        <span>View by: </span>
+        <button>Date</button>
+        <button>Event</button>
+      </div>
+      <div class="table-container">
+        <h3 class="table-title">Incomplete Tasks</h3>
+        
+        <table class="task-table">
 
-      <h3>Incomplete Tasks</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Task Name</th>
-            <th>Due Date</th>
-            <th>Event</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Fliers</td>
-            <td>1/16/24</td>
-            <td>Opening social</td>
-          </tr>
-          <tr>
-            <td>Call People</td>
-            <td>1/16/24</td>
-            <td>Opening social</td>
-          </tr>
-        </tbody>
-      </table>
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Due Date</th>
+              <th>Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fliers</td>
+              <td>1/16/24</td>
+              <td>Opening social</td>
+            </tr>
+            <tr>
+              <td>Call People</td>
+              <td>1/16/24</td>
+              <td>Opening social</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer id="foot-container"></footer>
     <script>

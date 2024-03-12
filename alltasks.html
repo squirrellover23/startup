@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> 
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Event Tracker</title>
@@ -21,39 +21,42 @@
     <main>
       <h2>All Tasks</h2>
       <div class="view-menu">
-      <span>View by: </span><button>Date</button> <button>Event</button>
+        <span>View by: </span><button>Date</button> <button>Event</button>
       </div>
-      <h3>Incomplete Tasks</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Task Name</th>
-            <th>Due Date</th>
-            <th>Event</th>
-            <th>Person</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Fliers</td>
-            <td>1/16/24</td>
-            <td>Opening social</td>
-            <td>Grace</td>
-          </tr>
-          <tr>
-            <td>Call People</td>
-            <td>1/16/24</td>
-            <td>Opening social</td>
-            <td>Grace</td>
-          </tr>
-          <tr>
-            <td>Call People</td>
-            <td>3/1/24</td>
-            <td>March Event</td>
-            <td>Angela</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-container">
+        <h3 class="table-title">Incomplete Tasks</h3>
+        
+        <table class="task-table">
+          <thead>
+            <tr>
+              <th>Task Name</th>
+              <th>Due Date</th>
+              <th>Event</th>
+              <th>Person</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fliers</td>
+              <td>1/16/24</td>
+              <td>Opening social</td>
+              <td>Grace</td>
+            </tr>
+            <tr>
+              <td>Call People</td>
+              <td>1/16/24</td>
+              <td>Opening social</td>
+              <td>Grace</td>
+            </tr>
+            <tr>
+              <td>Call People</td>
+              <td>3/1/24</td>
+              <td>March Event</td>
+              <td>Angela</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer id="foot-container"></footer>
     <script>
