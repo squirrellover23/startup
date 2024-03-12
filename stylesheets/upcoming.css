@@ -2,6 +2,7 @@
   list-style: none;
   padding-left: 0;
   margin: 20px;
+  margin-left: 8%;
 }
 
 .event-bar {
@@ -40,8 +41,4 @@ meter {
   .event-bar span {
     display: none;
   }
-}
-
-h2 {
-  margin: 20px;
 }
