@@ -15,6 +15,10 @@
         .then((response) => response.text())
         .then((html) => {
           document.getElementById("header-container").innerHTML = html;
+          const namet = document.getElementById("name-text");
+          const user_name = localStorage.getItem("currentuser"); //?? "hello";
+          const user_info = JSON.parse(localStorage.getItem(user_name))
+          namet.textContent = user_info.firstname + ' ' + user_info.lastname;
         });
     </script>
     <main>
@@ -27,9 +31,8 @@
       </div>
       <div class="table-container">
         <h3 class="table-title">Incomplete Tasks</h3>
-        
-        <table class="task-table">
 
+        <table class="task-table">
           <thead>
             <tr>
               <th>Task Name</th>

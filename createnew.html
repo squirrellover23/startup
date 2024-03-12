@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Tracker</title>
+    <link rel="stylesheet" href="stylesheets/index.css" />
+    <script src="scripts/login.js"></script>
+  </head>
+  <body>
+    <div id="error-msg" class="message-box">Error</div>
+    <div id="new-account">
+      <h1>Create New Account</h1>
+
+      <form
+        id="login-form"
+        onsubmit="return try_new_account()"
+        action="/"
+        method="get"
+      >
+        <label for="username">Username:</label>
+        <input id="username" type="text" placeholder="Username" required />
+        <br />
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="John" required />
+        <br />
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="Doe" required />
+        <br />
+        <label for="password">Password:</label>
+        <input id="password" type="text" placeholder="Password" required />
+        <br />
+        <input id="login-button" type="submit" value="Create" />
+      </form>
+    </div>
+  </body>
+</html>

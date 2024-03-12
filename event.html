@@ -16,18 +16,21 @@
         .then((response) => response.text())
         .then((html) => {
           document.getElementById("header-container").innerHTML = html;
+          const namet = document.getElementById("name-text");
+          const user_name = localStorage.getItem("currentuser"); //?? "hello";
+          const user_info = JSON.parse(localStorage.getItem(user_name))
+          namet.textContent = user_info.firstname + ' ' + user_info.lastname;
         });
     </script>
 
     <main>
       <!-- <h3 id="user-info">Grace Wingate</h3> -->
-      <h2>Event Name</h3>
+      <h2>Event Name</h2>
 
       <div class="view-menu">
         <span>View by: </span><button>Date</button> <button>Event</button>
       </div>
       <div class="table-container">
-        
         <table class="task-table">
           <thead>
             <tr>
